@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main(){
+    int base, exponente, resultado, i;
+    i = 0;
+    resultado = 1;
+    printf("Ingrese la base\n");
+    scanf("%i", &base);
+    printf("Ingrese el exponente\n");
+    scanf("%i", &exponente);
+while (i < exponente){
+    resultado = resultado * base;
+    i++;
+}
+printf("EL resultad es:%i ", resultado);
+}
