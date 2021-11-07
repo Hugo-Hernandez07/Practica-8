@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main(){
+	int cont=0;
+	while(cont++,cont<=10){
+		printf("hola\n");
+		printf("adios\n");
+	}
+}
