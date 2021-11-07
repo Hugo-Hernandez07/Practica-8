@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+ int num, num2, cont = 0;
+ printf("Ingrese un número: \n");
+ scanf("%d", &num);
+ printf("Ingrese un número: \n");
+ scanf("%d", &num2);
+ printf("Las tablas de multiplicar de los numeros %d y %d es:\n", num, num2);
+ while (++cont <= 10){
+ printf("%d x %d = %d\n", num, cont, num*cont);
+ printf("%d x %d = %d\n", num2, cont, num2*cont); 
+}
+}
